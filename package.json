@@ -1,0 +1,26 @@
+{
+  "name": "auth-api-nhost",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitinsha/Auth-API-NHost.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitinsha/Auth-API-NHost/issues"
+  },
+  "homepage": "https://github.com/nitinsha/Auth-API-NHost#readme",
+  "dependencies": {
+    "@nhost/nhost-js": "^1.5.2",
+    "express": "^4.18.2",
+    "graphql": "^16.6.0",
+    "nodemon": "^2.0.20"
+  }
+}
